@@ -31,3 +31,6 @@ This project reads a sentence from a file, calculates the word frequency, and di
     ```
 
 
+## Multithreading
+
+The word frequency algorithm runs in parallel using Python's `concurrent.futures.ThreadPoolExecutor`.
